@@ -81,3 +81,15 @@ p3Element.addEventListener("mouseover", ()=>{
 p3Element.addEventListener("mouseleave", ()=>{
   p3Element.style.fontSize = "25px";
 });
+
+//item 4
+
+p4Element.addEventListener("mouseover", ()=>{
+  p4Element.style.transition = 'font-size 0.1s ease'
+  p4Element.style.fontSize = "30px";
+});
+
+p4Element.addEventListener("mouseleave", ()=>{
+  p4Element.style.fontSize = "25px";
+  
+});
