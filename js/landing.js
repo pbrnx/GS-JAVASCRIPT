@@ -60,3 +60,15 @@ inserirTelefone.addEventListener("input", function() {
   }
 
 });
+//validar email
+inserirEmail.addEventListener("input", function() {
+  let email = inserirEmail.value.trim(); 
+
+  if (email.length < 5 || !email.includes('@')) {
+    inserirEmail.style.borderColor = 'red'; 
+  } 
+
+  else {
+    inserirEmail.style.borderColor = 'green'; 
+  }
+});
