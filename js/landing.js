@@ -45,3 +45,28 @@ const p4Element = document.getElementById('casos');
 const p5Element = document.getElementById('educa');
 const p6Element = document.getElementById('parcerias');
 const p7Element = document.getElementById('cadastro');
+
+
+
+//item 1
+    p1Element.addEventListener("mouseover", ()=>{
+        p1Element.style.transition = 'font-size 0.1s ease';
+        p1Element.style.fontSize = "30px"
+    });
+
+    p1Element.addEventListener("mouseleave", ()=>{
+      p1Element.style.fontSize = "25px";
+    });
+
+
+//item 2
+
+p2Element.addEventListener("mouseover", ()=>{
+    p2Element.style.transition = 'font-size 0.1s ease'
+    p2Element.style.fontSize = "30px";
+    });
+
+p2Element.addEventListener("mouseleave", ()=>{
+    p2Element.style.fontSize = "25px";
+    
+});
