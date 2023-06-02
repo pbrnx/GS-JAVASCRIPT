@@ -70,3 +70,14 @@ p2Element.addEventListener("mouseleave", ()=>{
     p2Element.style.fontSize = "25px";
     
 });
+
+//item 3
+
+p3Element.addEventListener("mouseover", ()=>{
+  p3Element.style.transition = 'font-size 0.1s ease'
+  p3Element.style.fontSize = "30px";
+  });
+
+p3Element.addEventListener("mouseleave", ()=>{
+  p3Element.style.fontSize = "25px";
+});
