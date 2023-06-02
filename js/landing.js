@@ -13,3 +13,16 @@ document.addEventListener('DOMContentLoaded', function() {
     var backgroundElement = document.querySelector('.background-image');
     var nextBackgroundElement = document.createElement('div');
     nextBackgroundElement.classList.add('background-image', 'next');
+function changeBackgroundImage() {
+      currentIndex++;
+      if (currentIndex >= imageUrls.length) {
+        currentIndex = 0;
+      }
+    
+ nextBackgroundElement.style.backgroundImage = "url(" + imageUrls[currentIndex] + ")";
+      backgroundElement.parentNode.appendChild(nextBackgroundElement);
+
+      setTimeout(function() {
+        backgroundElement.classList.add('slide-out');
+        nextBackgroundElement.classList.add('slide-in');
+      });
