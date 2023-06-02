@@ -93,3 +93,39 @@ p4Element.addEventListener("mouseleave", ()=>{
   p4Element.style.fontSize = "25px";
   
 });
+
+//item 5
+
+p5Element.addEventListener("mouseover", ()=>{
+  p5Element.style.transition = 'font-size 0.1s ease'
+  p5Element.style.fontSize = "30px";
+  });
+
+p5Element.addEventListener("mouseleave", ()=>{
+  p5Element.style.fontSize = "25px";
+  
+});
+
+//item 6
+
+p6Element.addEventListener("mouseover", ()=>{
+  p6Element.style.transition = 'font-size 0.1s ease'
+  p6Element.style.fontSize = "30px";
+  });
+
+p6Element.addEventListener("mouseleave", ()=>{
+  p6Element.style.fontSize = "25px";
+  
+});
+
+p7Element.addEventListener("mouseover", ()=>{
+  p7Element.style.transition = 'font-size 0.1s ease'
+  p7Element.style.fontSize = "30px";
+  });
+
+p7Element.addEventListener("mouseleave", ()=>{
+  p7Element.style.fontSize = "25px";
+  
+});
+
+
