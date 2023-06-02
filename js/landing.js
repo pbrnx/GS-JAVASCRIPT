@@ -36,3 +36,96 @@ setTimeout(function() {
 
     setInterval(changeBackgroundImage, 3000);
   });
+
+
+const p1Element = document.getElementById('agrisense');
+const p2Element = document.getElementById('tecnologias');
+const p3Element = document.getElementById('beneficios');
+const p4Element = document.getElementById('casos');
+const p5Element = document.getElementById('educa');
+const p6Element = document.getElementById('parcerias');
+const p7Element = document.getElementById('cadastro');
+
+
+
+//item 1
+    p1Element.addEventListener("mouseover", ()=>{
+        p1Element.style.transition = 'font-size 0.1s ease';
+        p1Element.style.fontSize = "30px"
+    });
+
+    p1Element.addEventListener("mouseleave", ()=>{
+      p1Element.style.fontSize = "25px";
+    });
+
+
+//item 2
+
+p2Element.addEventListener("mouseover", ()=>{
+    p2Element.style.transition = 'font-size 0.1s ease'
+    p2Element.style.fontSize = "30px";
+    });
+
+p2Element.addEventListener("mouseleave", ()=>{
+    p2Element.style.fontSize = "25px";
+    
+});
+
+//item 3
+
+p3Element.addEventListener("mouseover", ()=>{
+  p3Element.style.transition = 'font-size 0.1s ease'
+  p3Element.style.fontSize = "30px";
+  });
+
+p3Element.addEventListener("mouseleave", ()=>{
+  p3Element.style.fontSize = "25px";
+});
+
+//item 4
+
+p4Element.addEventListener("mouseover", ()=>{
+  p4Element.style.transition = 'font-size 0.1s ease'
+  p4Element.style.fontSize = "30px";
+});
+
+p4Element.addEventListener("mouseleave", ()=>{
+  p4Element.style.fontSize = "25px";
+  
+});
+
+//item 5
+
+p5Element.addEventListener("mouseover", ()=>{
+  p5Element.style.transition = 'font-size 0.1s ease'
+  p5Element.style.fontSize = "30px";
+  });
+
+p5Element.addEventListener("mouseleave", ()=>{
+  p5Element.style.fontSize = "25px";
+  
+});
+
+//item 6
+
+p6Element.addEventListener("mouseover", ()=>{
+  p6Element.style.transition = 'font-size 0.1s ease'
+  p6Element.style.fontSize = "30px";
+  });
+
+p6Element.addEventListener("mouseleave", ()=>{
+  p6Element.style.fontSize = "25px";
+  
+});
+
+p7Element.addEventListener("mouseover", ()=>{
+  p7Element.style.transition = 'font-size 0.1s ease'
+  p7Element.style.fontSize = "30px";
+  });
+
+p7Element.addEventListener("mouseleave", ()=>{
+  p7Element.style.fontSize = "25px";
+  
+});
+
+
