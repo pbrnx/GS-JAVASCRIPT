@@ -36,3 +36,13 @@ setTimeout(function() {
 
     setInterval(changeBackgroundImage, 3000);
   });
+//validar nome
+inserirNome.addEventListener("input", function() {
+  let nome = inserirNome.value.trim(); 
+  if (nome.length < 2) {
+    inserirNome.style.borderColor = 'red'; 
+  } 
+  else {
+    inserirNome.style.borderColor = 'green'; 
+  }
+});
