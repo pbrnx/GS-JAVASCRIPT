@@ -85,3 +85,19 @@ inserirMensagem.addEventListener("input", function() {
     inserirMensagem.style.borderColor = 'green'; 
   }
 });
+// botao de validar
+enviar.addEventListener('click', () => {
+  const telefone = inserirTelefone.value.trim();
+  let telefoneValido = telefone.length === 11;
+  let nomeValido = inserirNome.value.trim().length >= 2;
+  let emailValido = inserirEmail.value.trim().length >= 5 && inserirEmail.value.includes('@');
+  let mensagemValida = inserirMensagem.value.trim().length >= 5;
+  
+  if (nomeValido && telefoneValido && emailValido && mensagemValida) {
+    alert('Obrigado por se cadastrar!');
+  } 
+  
+  else {
+    alert("Verifique o formulário e preencha todos os campos corretamente!");
+  }
+});
