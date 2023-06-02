@@ -72,3 +72,16 @@ inserirEmail.addEventListener("input", function() {
     inserirEmail.style.borderColor = 'green'; 
   }
 });
+//commit mauricio 4
+inserirMensagem.addEventListener("input", function() {
+  let mensagem = inserirMensagem.value.trim(); 
+  inserirMensagem.value = mensagem.slice(0, 500);
+
+  if (mensagem.length < 5) {
+    inserirMensagem.style.borderColor = 'red'; 
+  
+  }
+  else {
+    inserirMensagem.style.borderColor = 'green'; 
+  }
+});
