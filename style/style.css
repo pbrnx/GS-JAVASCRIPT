@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.2s ease; 
+}
+
+#title {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  overflow: hidden;
+  z-index: 1; 
+  display: inline;
+  flex-wrap: wrap;
+}
+
+#headertext {
+  position: relative; 
+  z-index: 2; 
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background-image: url(../images/imagem-carroussel-1.jpg);
+}
+
+  
+.slide-out {
+  animation: slide-out 0.5s forwards;
+    
+ }
+  
+  .slide-in {
+    animation: slide-in 0.5s forwards;
+    
+  }
+  
+@keyframes slide-out {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+  
+@keyframes slide-in {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+
+h1 {
+  font-size: 80px;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+#topo {
+  font-size: 25px;
+  padding: 300px;
+  padding-top: 250px;
+  display:block;
+  padding-bottom: 0;  
+  zoom: 60%;
+  position:fixed;
+  text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  
+}
+
+#agrisense, #tecnologias, #beneficios, #casos, #educa, #parcerias, #cadastro{
+margin:35px;
+}
+
+#content:hover {
+  cursor: pointer;
+}
+
+#content {
+  margin-top: 200px; 
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  font-weight: bold;
+  width: 100%;
+  align-content: center;
+  
+}
+
+.h1Container {
+  font-size: 35px;
+}
+
+#container{
+  margin-top: 350px;
+  padding-left: 20px;
+  padding-right: 50px;
+  text-align: justify;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#teste {
+  width:500px;
+  border-radius: 15px;
+  margin:50px;
+  margin-top: 20px;
+  box-shadow: 6px 5px 17px rgb(0 0 0 / 52%);  
+}
+
+
+#fotos{
+  display: 	flex;
+  justify-content: center;
+}
+
+.parceria {
+  width: 700px;
+  
+}
+
+#backToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  width: 50px;
+  
+}
+
+#backToTopBtn:hover {
+  cursor: pointer;
+  
+}
+
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+
+#form {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 1%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.userinput{
+  width: 235px;
+  height: 25px;
+  border-radius: 7px;
+  font-family: sans-serif;
+  font-size: 15px;
+  border: 3px solid black;
+  transition: border-color 0.5s; 
+}
+
+#message {
+  width: 235px;
+  height: 100px;
+  min-width: 235px;
+  max-width: 350px;
+  min-height: 100px;
+  max-height: 300px;
+  
+}
+
+.botao{
+  display: inline-flex;
+  text-align: center;
+  width: auto;
+  height: auto;
+  margin: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  
+}
+
+.botao:hover{
+  background-color: rgb(203, 203, 203);
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+label {
+  border-color: none;
+}
+
+textarea {
+  border:none;
+}
+
+
+#datetime {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  font-family: 'Poppings', sans-serif;
+  font-size: 16px;
+  color: #333;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+  
+}
+
+#darkmode {
+  background-color:rgb(10,10,15);
+  color: white;
+  border: none;
+  border-radius: 50px;
+}
+
+.rm{
+  display: table-row;
+
+}
+
+footer {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(218, 255, 218);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.footerImgContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 20px; /* Add margin to create space */
+}
+
+.footerImg {
+  width: 100px;
+  height: auto;
+}
+
+th, tr, td {
+  padding-right: 100px ;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+@media (max-width: 1366px) {
+  #teste {
+    width: 350px;
+    margin: 35px;
+    margin-top: 10px;    
+  }
+
+  .parceria {
+    width: 500px;    
+  }
+
+
+  #title {
+  zoom:75%;
+  }
+
+  #content {
+    zoom: 85%;
+    margin-top: 150px;  
+    display: flex;
+    width: 140%;
+    align-content: center;
+    margin-left: -18%;
+  }
+
+  #topo {
+    padding-top: 200px;
+  }
+
+  #container{
+    margin-top: 250px;
+    padding-left: 20px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 18px;
+    
+  }
+}
