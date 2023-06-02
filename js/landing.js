@@ -36,3 +36,12 @@ setTimeout(function() {
 
     setInterval(changeBackgroundImage, 3000);
   });
+
+
+const p1Element = document.getElementById('agrisense');
+const p2Element = document.getElementById('tecnologias');
+const p3Element = document.getElementById('beneficios');
+const p4Element = document.getElementById('casos');
+const p5Element = document.getElementById('educa');
+const p6Element = document.getElementById('parcerias');
+const p7Element = document.getElementById('cadastro');
