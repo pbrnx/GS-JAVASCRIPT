@@ -46,3 +46,17 @@ inserirNome.addEventListener("input", function() {
     inserirNome.style.borderColor = 'green'; 
   }
 });
+//validar telefone
+
+inserirTelefone.addEventListener("input", function() {
+  const telefone = inserirTelefone.value.trim(); 
+
+  if (/^\d{2}\d*$/.test(telefone) && telefone.length === 11) {
+    
+    inserirTelefone.style.borderColor = 'green'; 
+  } 
+  else {
+    inserirTelefone.style.borderColor = 'red'; 
+  }
+
+});
