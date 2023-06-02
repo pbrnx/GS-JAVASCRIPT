@@ -8,3 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
       "./images/imagem-carroussel-2.jpg",
       "./images/imagem-carroussel-3.jpg"
     ];
+
+ var currentIndex = 0;
+    var backgroundElement = document.querySelector('.background-image');
+    var nextBackgroundElement = document.createElement('div');
+    nextBackgroundElement.classList.add('background-image', 'next');
