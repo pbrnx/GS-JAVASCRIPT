@@ -26,3 +26,13 @@ function changeBackgroundImage() {
         backgroundElement.classList.add('slide-out');
         nextBackgroundElement.classList.add('slide-in');
       });
+setTimeout(function() {
+        backgroundElement.style.backgroundImage = "url(" + imageUrls[currentIndex] + ")";
+        backgroundElement.classList.remove('slide-out');
+        nextBackgroundElement.classList.remove('slide-in');
+        backgroundElement.parentNode.removeChild(nextBackgroundElement);
+      }, 1000);
+    }
+
+    setInterval(changeBackgroundImage, 3000);
+  });
