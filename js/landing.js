@@ -53,3 +53,12 @@ validar.addEventListener('click',()=>{
     alert('Usuário e/ou senha incorretos')
   }
 });
+
+var datetimeElement = document.getElementById('datetime');
+function updateDateTime() {
+  var currentDateTime = new Date();
+  var formattedDateTime = currentDateTime.toLocaleString();
+  datetimeElement.textContent = formattedDateTime;
+}
+updateDateTime();
+setInterval(updateDateTime, 1000);
