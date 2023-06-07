@@ -4,12 +4,17 @@
 Este é o repositório do projeto Agrisense, uma plataforma que busca revolucionar a agricultura por meio da agricultura de precisão e tecnologias avançadas.
 
 Conteúdo do Repositório
-index.html: Este é o arquivo principal que contém o código HTML da página do Agrisense.
+index.html: Este é o arquivo principal que contém o código HTML da página do Agrisense. 
+
 style.css: Este arquivo contém o código CSS para estilizar a página do Agrisense.
+
 icon.png: Este é o ícone utilizado na página do Agrisense.
+
 landing.js: Este arquivo contém o código JavaScript responsável por manipular a página e adicionar funcionalidades interativas.
+
 images/: Esta pasta contém as imagens utilizadas na página do Agrisense.
-Utilização
+
+## Utilização
 Para visualizar a página do Agrisense, abra o arquivo index.html em um navegador da web compatível.
 
 Recursos e Funcionalidades
