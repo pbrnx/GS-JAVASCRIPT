@@ -3,3 +3,5 @@ João Pedro de Albuquerque Oliveira       RM: 551579
 Maurício Santos Rodrigues                RM: 551076
 Vitor Reyes Souza                        RM: 550766
 Luis Serafin Bezagio Mendieta            RM: 551588
+
+Repositório: https://github.com/pbrnx/GS-JAVASCRIPT.git
