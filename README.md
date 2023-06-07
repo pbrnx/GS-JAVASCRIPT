@@ -18,7 +18,7 @@ images/: Esta pasta contém as imagens utilizadas na página do Agrisense.
 Para visualizar a página do Agrisense, abra o arquivo index.html em um navegador da web compatível.
 
 ## Recursos e Funcionalidades
-A página do Agrisense é dividida em seções, cada uma abordando um aspecto específico do projeto. Aqui está uma visão geral das seções presentes na página:
+### A página do Agrisense é dividida em seções, cada uma abordando um aspecto específico do projeto. Aqui está uma visão geral das seções presentes na página:
 
 Agrisense: Apresenta uma descrição geral do projeto Agrisense e seus objetivos.
 
@@ -37,3 +37,10 @@ Cadastre-se no nosso projeto: Oferece um formulário de cadastro para aqueles qu
 Contate-nos: Fornece informações de contato, incluindo números de telefone e endereços de e-mail.
 
 Além disso, a página apresenta um carrossel de imagens que são exibidas a cada 2.5 segundos, adicionando um elemento visual dinâmico.
+
+## Imagens do projeto: 
+![image](https://github.com/pbrnx/GS-JAVASCRIPT/assets/128100284/ce9f4055-00f3-48be-83a5-5920ff05432b)
+![image](https://github.com/pbrnx/GS-JAVASCRIPT/assets/128100284/1862a50e-eba8-48f0-beef-c87e82d5d5ec)
+![image](https://github.com/pbrnx/GS-JAVASCRIPT/assets/128100284/7790de27-8f8d-444f-b1e1-66361bfc8e2f)
+
+
