@@ -40,7 +40,9 @@ Além disso, a página apresenta um carrossel de imagens que são exibidas a cad
 
 ## Imagens do projeto: 
 ![image](https://github.com/pbrnx/GS-JAVASCRIPT/assets/128100284/ce9f4055-00f3-48be-83a5-5920ff05432b)
+
 ![image](https://github.com/pbrnx/GS-JAVASCRIPT/assets/128100284/1862a50e-eba8-48f0-beef-c87e82d5d5ec)
+
 ![image](https://github.com/pbrnx/GS-JAVASCRIPT/assets/128100284/7790de27-8f8d-444f-b1e1-66361bfc8e2f)
 
 
