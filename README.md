@@ -1,6 +1,5 @@
-# GS-JAVASCRIPT
-Repositório do nosso projeto
-Agrisense
+# GS Javascript e Frontend
+##Agrisense
 
 Este é o repositório do projeto Agrisense, uma plataforma que busca revolucionar a agricultura por meio da agricultura de precisão e tecnologias avançadas.
 
