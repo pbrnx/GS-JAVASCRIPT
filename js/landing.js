@@ -1,4 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
+//carrossel de imagens, troca em 2.5s
+document.addEventListener('DOMContentLoaded', function () {
    var imageUrls = [
       "./images/imagem-carroussel-1.jpg",
       "./images/imagem-carroussel-2.jpg",
@@ -19,12 +20,12 @@ document.addEventListener('DOMContentLoaded', function() {
       nextBackgroundElement.style.backgroundImage = "url(" + imageUrls[currentIndex] + ")";
       backgroundElement.parentNode.appendChild(nextBackgroundElement);
 
-      setTimeout(function() {
+      setTimeout(function () {
          backgroundElement.classList.add('slide-out');
          nextBackgroundElement.classList.add('slide-in');
       });
 
-      setTimeout(function() {
+      setTimeout(function () {
          backgroundElement.style.backgroundImage = "url(" + imageUrls[currentIndex] + ")";
          backgroundElement.classList.remove('slide-out');
          nextBackgroundElement.classList.remove('slide-in');
@@ -32,12 +33,11 @@ document.addEventListener('DOMContentLoaded', function() {
       }, 1000);
    }
 
-   setInterval(changeBackgroundImage, 3000);
+   setInterval(changeBackgroundImage, 2500);
 });
 
 
 //chamando os parágrafos
-
 const p1Element = document.getElementById('agrisense');
 const p2Element = document.getElementById('tecnologias');
 const p3Element = document.getElementById('beneficios');
@@ -130,7 +130,6 @@ p7Element.addEventListener("mouseleave", () => {
 });
 
 
-
 //scrollar para parte desejada
 p1Element.addEventListener("click", scrollToContent);
 p2Element.addEventListener("click", scrollToContent);
@@ -139,7 +138,6 @@ p4Element.addEventListener("click", scrollToContent);
 p5Element.addEventListener("click", scrollToContent);
 p6Element.addEventListener("click", scrollToContent);
 p7Element.addEventListener("click", scrollToContent);
-
 
 
 //função para scrollar, offset por conta do header com posição fixa
@@ -157,7 +155,7 @@ function scrollToContent() {
 
 //botao de voltar ao topo
 var backToTopBtn = document.getElementById('backToTopBtn');
-window.addEventListener('scroll', function() {
+window.addEventListener('scroll', function () {
    if (window.pageYOffset > 0) {
       backToTopBtn.classList.remove('hidden');
    } else {
@@ -167,7 +165,7 @@ window.addEventListener('scroll', function() {
 });
 
 
-backToTopBtn.addEventListener('click', function() {
+backToTopBtn.addEventListener('click', function () {
    window.scrollTo({
       top: 0,
       behavior: 'smooth'
@@ -186,7 +184,7 @@ const enviar = document.getElementById("botaoEnviar");
 //parse int para salvar informações localmente
 
 //validar nome
-inserirNome.addEventListener("input", function() {
+inserirNome.addEventListener("input", function () {
    let nome = inserirNome.value.trim();
    if (nome.length < 2) {
       inserirNome.style.borderColor = 'red';
@@ -198,7 +196,7 @@ inserirNome.addEventListener("input", function() {
 
 //validar telefone
 
-inserirTelefone.addEventListener("input", function() {
+inserirTelefone.addEventListener("input", function () {
    const telefone = inserirTelefone.value.trim();
 
    if (/^\d{2}\d*$/.test(telefone) && telefone.length === 11) {
@@ -211,7 +209,7 @@ inserirTelefone.addEventListener("input", function() {
 });
 
 //validar email
-inserirEmail.addEventListener("input", function() {
+inserirEmail.addEventListener("input", function () {
    let email = inserirEmail.value.trim();
 
    if (email.length < 5 || !email.includes('@') || !email.includes('.com')) {
@@ -222,7 +220,7 @@ inserirEmail.addEventListener("input", function() {
 });
 
 
-inserirMensagem.addEventListener("input", function() {
+inserirMensagem.addEventListener("input", function () {
    let mensagem = inserirMensagem.value.trim();
    inserirMensagem.value = mensagem.slice(0, 500);
 
@@ -316,4 +314,4 @@ function updateDarkMode() {
    }
 }
 
-//alert('Seja bem-vindo ao projeto Agrisense!');
+alert('Seja bem-vindo ao projeto Agrisense!');

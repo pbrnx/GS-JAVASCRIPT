@@ -4,9 +4,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Heebo', sans-serif;
-	background-color: rgb(239, 255, 243);
 	transition: background-color 0.2s ease;
-	
 }
 
 #title {
@@ -42,6 +40,7 @@ body {
 }
 
 /*a soma desses dois deve ser de 1s, delay setado no JS*/
+
 .slide-out {
 	animation: slide-out 0.5s forwards;
 
@@ -206,8 +205,8 @@ input:focus {
 
 }
 
-#message:focus{
-	outline:none;
+#message:focus {
+	outline: none;
 }
 
 .botao {
@@ -299,7 +298,6 @@ a {
 }
 
 
-
 /*Altera alguns parâmetros para displays menores*/
 @media (max-width: 1366px) {
 	#imagens {
@@ -330,7 +328,7 @@ a {
 		padding-top: 200px;
 	}
 
-	.h1Container{
+	.h1Container {
 		font-size: 26px;
 	}
 
@@ -348,14 +346,14 @@ a {
 
 	#datetime {
 		font-size: 12px;
-	
+
 	}
 
 	#form {
 		zoom: 80%;
 	}
 
-	footer{
+	footer {
 		zoom: 75%;
 	}
 }
