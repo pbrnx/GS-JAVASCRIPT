@@ -45,4 +45,7 @@ Além disso, a página apresenta um carrossel de imagens que são exibidas a cad
 
 ![image](https://github.com/pbrnx/GS-JAVASCRIPT/assets/128100284/7790de27-8f8d-444f-b1e1-66361bfc8e2f)
 
+### Validação Javascript
+![image](https://github.com/pbrnx/GS-JAVASCRIPT/assets/128100284/e73bcf60-8469-4808-ba9f-b2f9a6d0fce7)
+
 
