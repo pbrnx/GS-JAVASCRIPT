@@ -78,3 +78,24 @@ darkModeButton.addEventListener('click', () => {
   updateDarkMode();
   localStorage.setItem("isDarkMode", isDarkMode);
 });
+
+function updateDarkMode() {
+  if (isDarkMode) {
+    document.body.style.backgroundColor = 'rgb(10, 10, 15)';
+    document.body.style.color = 'white';
+    menu.style.textShadow = 'none';
+    document.body.style.borderColor = 'white';
+    darkModeButton.textContent = '☀';
+    darkModeButton.style.backgroundColor = 'white';
+    darkModeButton.style.color = 'black';
+  } 
+  
+  else {
+    document.body.style.backgroundColor = 'white';
+    document.body.style.color = 'black';
+    menu.style.textShadow = '-1px -1px 0 rgb(255, 255, 255), 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white';
+    darkModeButton.textContent = '☽';
+    darkModeButton.style.backgroundColor = 'rgb(10, 10, 15)';
+    darkModeButton.style.color = 'white';
+  }
+}
