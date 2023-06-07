@@ -36,3 +36,8 @@ setTimeout(function() {
 
     setInterval(changeBackgroundImage, 3000);
   });
+//login de usuário
+
+const validar = document.getElementById("botaoLogin");
+const userLogin = document.getElementById("inserirUser");
+const senhaLogin = document.getElementById("inserirSenha");
