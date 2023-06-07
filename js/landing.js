@@ -62,3 +62,19 @@ function updateDateTime() {
 }
 updateDateTime();
 setInterval(updateDateTime, 1000);
+
+//dark mode
+const darkModeButton = document.getElementById("darkmode");
+const menu = document.getElementById("content");
+let isDarkMode = parseInt(localStorage.getItem("isDarkMode")) || 0;
+
+updateDarkMode();
+
+darkModeButton.addEventListener('click', () => {
+
+
+  //comparação para alternar usando o mesmo botão
+  isDarkMode = isDarkMode ? 0 : 1;
+  updateDarkMode();
+  localStorage.setItem("isDarkMode", isDarkMode);
+});
